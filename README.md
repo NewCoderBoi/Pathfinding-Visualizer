@@ -1,6 +1,6 @@
- #Steps to run on your local machine
+# Steps to run on your local machine
 
- ##Note : You should have node and npm installed in your local machine
+## Note : You should have node and npm installed in your local machine
 
  1. Download the ZIP or clone the repository
  2. Open terminal
