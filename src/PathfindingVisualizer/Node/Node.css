@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid #000;
+  display: inline-block;
+}
+
+.start {
+  font-size: 12px;
+  background-color: rgb(28, 228, 28);
+}
+
+.finish {
+  font-size: 12px;
+  background-color: red;
+}
+
+.wall {
+  background-color: #000;
+}
+
+.visited {
+  background-color: rgba(33, 199, 163, 0.555);
+}
+
+.shortest-path {
+  background-color: rgb(213, 5, 255);
+}

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+nav {
+  margin-top: 20px;
+  /*For Full Screen*/
+  /* margin-top: 40px; */
+  margin-bottom: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li div {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.legend-start {
+  background-color: rgb(28, 228, 28);
+}
+
+.legend-finish {
+  background-color: red;
+}
+
+.legend-wall {
+  background-color: #000;
+}
+
+.legend-visited {
+  background-color: rgba(33, 199, 163, 0.555);
+}
+
+.legend-shortest-path {
+  background-color: rgb(213, 5, 255);
+}
+
+.grid {
+  margin: 40px 0 0 50px;
+  /* For Full Screen*/
+  /* margin: 75px 0 0 50px; */
+}
+
+button {
+  position: absolute;
+  bottom: 3%;
+  /*For full screen*/
+  /* bottom: 10%; */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 40px;
+  background-color: rgb(74, 216, 235);
+  font-weight: bold;
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 144, 158);
+  transition: all 0.2s ease-in-out;
+}
