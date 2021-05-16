@@ -1,12 +1,12 @@
-#Steps to run on your local machine
+ #Steps to run on your local machine
 
-##Note : You should have node and npm installed in your local machine
+ ##Note : You should have node and npm installed in your local machine
 
-1. Download the ZIP or clone the repository
-2. Open terminal
-3. Navigate to the project folder
-4. Use the command __npm install__ to install the requisite packages
-5. Use the command __npm start__ to run the project on __localhost:3000__
+ 1. Download the ZIP or clone the repository
+ 2. Open terminal
+ 3. Navigate to the project folder
+ 4. Use the command __npm install__ to install the requisite packages
+ 5. Use the command __npm start__ to run the project on __localhost:3000__
 
 # Getting Started with Create React App
 
