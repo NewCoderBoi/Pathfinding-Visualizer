@@ -131,7 +131,7 @@ const PathfindingVisualizer = ()=>{
     }
 
     return(
-        <div>
+        <div class="whole-page">
             <nav>
                 <ul>
                     <li>
