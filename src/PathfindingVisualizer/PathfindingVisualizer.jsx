@@ -136,23 +136,23 @@ const PathfindingVisualizer = ()=>{
                 <ul>
                     <li>
                         <div className="legend-start"></div>
-                        Start Node.
+                        Start Node
                     </li>
                     <li>
                         <div className="legend-finish"></div>
-                        Destination Node.
+                        Destination Node
                     </li>
                     <li>
                         <div className="legend-wall"></div>
-                        Opaque Wall Node.
+                        Opaque Wall Node
                     </li>
                     <li>
                         <div className="legend-visited"></div>
-                        Visited Nodes.
+                        Visited Nodes
                     </li>
                     <li>
                         <div className="legend-shortest-path"></div>
-                        Shortest Path.
+                        Shortest Path
                     </li>
                 </ul>
             </nav>
