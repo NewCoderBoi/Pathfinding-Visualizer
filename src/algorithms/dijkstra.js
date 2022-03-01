@@ -20,7 +20,7 @@ const dijkstra = (grid, startNode, destNode)=>{
         //Sorting the unvisited nodes array so that the unvisited node with the shortest distance is the first element of the array.
         sortNodesByDistance(unvisitedNodes);
         // console.log(unvisitedNodes[0]);
-        //shift() pops out the first element of the array, shifts rest of array elements one step to the left, and returns the popped element. In this case, we get the unvisited node with shortest distance in the closest node variable, which is what we ned.
+        //shift() pops out the first element of the array, shifts rest of array elements one step to the left, and returns the popped element. In this case, we get the unvisited node with shortest distance in the closest node variable, which is what we need.
         const closestNode = unvisitedNodes.shift();
         //If the closest node is a wall, we do not do anything for that node.
         if(closestNode.isWall) continue;
