@@ -11,24 +11,24 @@
   display: inline-block;
 }
 
+.wall {
+  background-color: #0c3547;
+}
+
+.visited {
+  background-color: rgba(0, 242, 255, 0.521);
+}
+
+.shortest-path {
+  background-color: #ff5100;
+}
+
 .start {
   font-size: 12px;
-  background-color: rgb(28, 228, 28);
+  background-color: rgb(62, 122, 70);
 }
 
 .finish {
   font-size: 12px;
-  background-color: red;
-}
-
-.wall {
-  background-color: #000;
-}
-
-.visited {
-  background-color: rgba(33, 199, 163, 0.555);
-}
-
-.shortest-path {
-  background-color: rgb(213, 5, 255);
+  background-color: rgb(155, 23, 14);
 }

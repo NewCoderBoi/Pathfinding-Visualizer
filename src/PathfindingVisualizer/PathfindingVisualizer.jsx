@@ -179,7 +179,7 @@ const PathfindingVisualizer = ()=>{
                     </div>
                 })}
             </div>
-            <button onClick = {()=>visualizeDijkstra()}>Visualize Dijkstra's Algorithm</button>
+            <button onClick = {()=>visualizeDijkstra()}>Visualize Dijkstra's</button>
        </div> 
     )
 }
